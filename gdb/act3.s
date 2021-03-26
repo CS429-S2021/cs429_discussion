@@ -9,7 +9,7 @@ compare:
     movq      %rdi, %rbx
     addq      $5, %rbx
     addq      %rsi, %rbx
-    cmpq      $15213, %rbx
+    cmpq      $429, %rbx
     sete      %al
     movzbq    %al, %rax
     popq      %rbx
